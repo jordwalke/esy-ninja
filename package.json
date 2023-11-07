@@ -1,0 +1,30 @@
+{
+  "name": "esy-ninja",
+  "version": "1.11.1",
+  "description": "Esy ninja build",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "github.com/jordwalke/esy-ninja"
+  },
+  "keywords": [
+    "ninja",
+    "ninjabuild",
+    "esy"
+  ],
+  "esy": {
+    "buildsInSource": true,
+    "build": [
+      "cmake -Bbuild-cmake",
+      "cmake --build build-cmake"
+    ],
+    "install": [
+      "cp -r #{self.target_dir / 'build-cmake/'} #{self.bin}"
+    ]
+  },
+  "dependencies": {
+    "@esy-packages/esy-cmake": "*"
+  },
+  "author": "",
+  "license": "Apache-2.0"
+}

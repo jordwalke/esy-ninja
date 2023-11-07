@@ -1,0 +1,33 @@
+{
+  "checksum": "53469e8680c711f376ce8292ded3b58c",
+  "root": "esy-ninja@link-dev:./package.json",
+  "node": {
+    "esy-ninja@link-dev:./package.json": {
+      "id": "esy-ninja@link-dev:./package.json",
+      "name": "esy-ninja",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [ "@esy-packages/esy-cmake@3.26.3000@d41d8cd9" ],
+      "devDependencies": []
+    },
+    "@esy-packages/esy-cmake@3.26.3000@d41d8cd9": {
+      "id": "@esy-packages/esy-cmake@3.26.3000@d41d8cd9",
+      "name": "@esy-packages/esy-cmake",
+      "version": "3.26.3000",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/@esy-packages/esy-cmake/-/esy-cmake-3.26.3000.tgz#sha1:0f3c30e462b6290a49bb9efce5791f7b7e049459"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}

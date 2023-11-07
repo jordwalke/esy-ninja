@@ -1,5 +1,9 @@
 # Ninja
 
+# This is an esy configured build of ninja
+- It is not heavily tested.
+- It is not published to npm, but you can depend on this github repo directly using esy.
+
 Ninja is a small build system with a focus on speed.
 https://ninja-build.org/
 
